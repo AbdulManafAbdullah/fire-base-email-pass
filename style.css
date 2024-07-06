@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+
+  }
+  
+  div#auth_container {
+    width: 400px;
+    margin: 40px auto 0px auto;
+    
+  
+  }
+
+  h1 {
+    padding-top:  15px;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+  
+    
+  }
+  
+  input.name {
+    width: 300px;
+    border: 1px solid rgba(105, 128, 135, 0.992);;
+    border-radius: 3px;
+    outline: 0;
+    padding: 10px;
+    box-shadow: inset 0px 0px 4px rgba(5, 4, 4, 0.5);
+
+  }
+ 
+  
+  /* ========== User Container======== */
+  
+  #user_container {
+   font-size: 50px;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+  }
+  #user_email{
+    text-decoration:underline;
+    color:rgb(61, 58, 58)
+  }
+  /* ======== ONLY BUTTONS ======== */
+  #signup_btn{
+    --c:  #229091; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  #signup_btn:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  #signup_btn:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+  body {
+    height: 90vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+    gap: 40px; 
+    background: #F2DCA2;  
+  }
+   
+
+  #signup_btn{
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+  /* 22222222222 */
+  #signin_btn{
+    --c:  #229091; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  #signin_btn:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  #signin_btn:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+ 
+  #signin_btn{
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+  /* 333333333333333 */
+
+  button{
+    --c:  #229091; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+
+  button{
+    font-family: system-ui, sans-serif;
+    font-size: 4.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
+   /* 333333333 */
+  
+
+  
+/* ========= Circular ======== */
+  .body-circular {
+    height: 100vh;
+    display: grid;
+    margin-top: 80px;
+  }
+  #text {
+    height: 160px;
+    font-size: 20px;
+    animation: animate 10s linear infinite;
+    color: crimson;
+    
+  }
+  @keyframes animate {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+  span {
+    position: absolute;
+    transform-origin: 0 80px;
+  } 
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fire Base</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ========creat account======== -->
+
+    <div id="auth_container">
+      <h1>SignUp & SignIn</h1>
+      <br />
+      <label>Creat Your Email : </label>
+      <input
+        id="signup_email"
+        type="Email"
+        class="name"
+        placeholder="Enter Valid Email"
+      />
+      <br /><br />
+
+      <label>Password : </label>
+      <br />
+      <input
+        id="signup_password"
+        type="password"
+        class="name"
+        placeholder="Enter Valid Password"
+      />
+      <br /><br />
+
+      <input
+        id="signup_btn"
+        type="submit"
+        style="--c: #e95a49;"
+        value="submit"
+      />
+      <br />
+
+      <!-- =========Signin account======== -->
+
+      <!-- <h1>Signin Here</h1><br> -->
+      <label>Email : </label>
+      <br />
+      <input
+        id="signin_email"
+        type="Email"
+        class="name"
+        placeholder="Enter Valid Email"
+      />
+      <br /><br />
+
+      <label>Password : </label>
+      <br />
+      <input
+        id="signin_password"
+        type="password"
+        class="name"
+        placeholder="Enter Valid Password"
+      />
+      <br /><br />
+
+      <input
+        id="signin_btn"
+        type="submit"
+        style="--c: #229091;"
+        value="submit"
+      />
+    </div>
+
+    <!-- ================ USER CONTSINER =============== -->
+
+    <div id="user_container">
+      <h2 id="user_email"></h2>
+      <!-- <input id="logout_btn" type="submit" value="Logout"/> -->
+
+      <button id="logout_btn" style="--c: #e95a49;">SignOut</button>
+
+      <!-- ========== Circular ========= -->
+      <div class="body-circular">
+        <h1 id="text">Congrates-you-are-login.</h1>
+      </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
