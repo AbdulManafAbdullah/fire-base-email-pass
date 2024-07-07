@@ -9,8 +9,6 @@
   div#auth_container {
     width: 400px;
     margin: 40px auto 0px auto;
-    
-  
   }
 
   h1 {
@@ -29,10 +27,105 @@
     outline: 0;
     padding: 10px;
     box-shadow: inset 0px 0px 4px rgba(5, 4, 4, 0.5);
-
+    
   }
- 
   
+  /* @media=================== */
+  @media screen and (max-width: 507px)  {
+    label{
+    margin-left: 80px;
+    font-size: 18px;
+   }
+    h1 {
+      padding-top:  15px;
+      font-size: 30px;
+      text-align: center;
+    }
+    input.name {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 70px;
+    }
+     #signup_btn {
+      margin-left: 160px;
+      margin-bottom: 10px;
+    }
+    #signin_btn {
+      margin-left: 160px;
+    } 
+  }
+  @media screen and (max-width: 412px)  {
+    label{
+    margin-left: 30px;
+   }
+    h1 {
+      margin-right: 30px;
+      font-size: 40px;
+      text-align: center;
+    }
+    input.name {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+    }
+     #signup_btn {
+      margin-left: 140px;
+      margin-bottom: 20px;
+    }
+    #signin_btn {
+      margin-left: 140px;
+    } 
+  }
+  
+  @media screen and (max-width: 320px)  {
+    label{
+    margin-left: 80px;
+   }
+    h1 {
+      padding-top:  15px;
+      font-size: 30px;
+      text-align: center;
+    }
+    input.name {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 80px;
+    }
+     #signup_btn {
+      margin-left: 140px;
+      margin-bottom: 20px;
+    }
+    #signin_btn {
+      margin-left: 140px;
+    } 
+  }
+  @media screen and (max-width: 390px)  {
+    label{
+    margin-left: 30px;
+   }
+    h1 {
+      padding-top:  15px;
+      font-size: 35px;
+      margin-right: 20px;
+      text-align: center;
+    }
+    input.name {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+    }
+     #signup_btn {
+      margin-left: 140px;
+      margin-bottom: 20px;
+    }
+    #signin_btn {
+      margin-left: 140px;
+    } 
+  } 
   /* ========== User Container======== */
   
   #user_container {
@@ -187,4 +280,3 @@
     position: absolute;
     transform-origin: 0 80px;
   } 
-
