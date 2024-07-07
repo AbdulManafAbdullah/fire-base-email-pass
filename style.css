@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, sans-serif;
+    
 
   }
   
@@ -14,11 +15,9 @@
   h1 {
     padding-top:  15px;
     font-size: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
-  
-    
+    color:rgb(184, 175, 200);
   }
+
   
   input.name {
     width: 300px;
@@ -55,6 +54,7 @@
       padding-top:  15px;
       font-size: 30px;
       text-align: center;
+      
     }
     input.name {
       width: 300px;
@@ -83,7 +83,7 @@
       
     }
   } 
-  }
+  
   @media screen and (max-width: 412px)  {
     label{
     margin-left: 30px;
@@ -120,7 +120,7 @@
       
     }
   } 
-  }
+  
   
   @media screen and (max-width: 320px)  {
     
@@ -155,10 +155,11 @@
     #user_email{
       font-size: 15px;
       text-decoration: underline;
+      margin-left: 150px;
       
     }
   } 
-  }
+  
   @media screen and (max-width: 390px)  {
     label{
     margin-left: 30px;
@@ -187,7 +188,7 @@
     }
     #logout_btn{
       font-size: 14px;
-      margin-right: 120px;
+      margin-right: 40px;
       
     }
     #user_email{
@@ -216,6 +217,7 @@
   #signup_btn:hover {
     --_p: 100%;
     transition: background-position .4s, background-size 0s;
+    color: black;
   }
   #signup_btn:active {
     box-shadow: 0 0 9e9q inset #0009; 
@@ -230,7 +232,8 @@
     place-content: center;
     grid-auto-flow: column;
     gap: 40px; 
-    background: #F2DCA2;  
+    background: #000;  
+    color: aliceblue;
   }
    
 
@@ -241,6 +244,7 @@
     padding: .1em .6em;
     font-weight: bold;  
     border: none;
+    color: aliceblue;
   }
   /* 22222222222 */
   #signin_btn{
@@ -260,6 +264,7 @@
   #signin_btn:hover {
     --_p: 100%;
     transition: background-position .4s, background-size 0s;
+    color: black;
   }
   #signin_btn:active {
     box-shadow: 0 0 9e9q inset #0009; 
@@ -275,6 +280,7 @@
     padding: .1em .6em;
     font-weight: bold;  
     border: none;
+    color: aliceblue;
   }
   /* 333333333333333 */
 
@@ -295,6 +301,7 @@
   button:hover {
     --_p: 100%;
     transition: background-position .4s, background-size 0s;
+    color: #000;
   }
   button:active {
     box-shadow: 0 0 9e9q inset #0009; 
@@ -310,6 +317,7 @@
     padding: .1em .6em;
     font-weight: bold;  
     border: none;
+    color: rgb(57, 102, 141);
   }
    /* 333333333 */
   
@@ -325,7 +333,7 @@
     height: 160px;
     font-size: 20px;
     animation: animate 10s linear infinite;
-    color: crimson;
+    color: rgb(205, 245, 8);
     
   }
   @keyframes animate {
